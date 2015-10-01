@@ -1,0 +1,28 @@
+{
+  "name": "snapterest",
+  "version": "1.0.0",
+  "description": "the first react app i build",
+  "main": "react学习笔记.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chocoluffy/snapterest.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "chocoluffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chocoluffy/snapterest/issues"
+  },
+  "homepage": "https://github.com/chocoluffy/snapterest#readme",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
