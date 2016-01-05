@@ -1,10 +1,10 @@
 var React = require('react');
 
 var headerStyle = {
-	fontSize: '16px';
-	fontWeight: '300';
-	display: 'inline-block';
-	margin: '20px 10px';
+	fontSize: '16px',
+	fontWeight: '300',
+	display: 'inline-block',
+	margin: '20px 10px'
 };
 
 var Header = React.createClass({

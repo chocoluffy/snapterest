@@ -13,23 +13,23 @@ var listItemStyle = {
 var TweetList = React.createClass({
 
 	getListOfTweetIds: function(){
-		return Object.keys(this.props.tweet);
+		return Object.keys(this.props.tweets);
 	},
 
 	getTweetElement: function(tweetID){
 		var tweet = this.props.tweets[tweetID];
-		var handleRemoveTweetFromCollection = this.props.removeTweetFromCollection;
+		var handleRemoveTweetFromCollection = this.props.onRemoveTweetFromCollection;
 		var tweetElement;
 
 		if(handleRemoveTweetFromCollection){
 			tweetElement = (
-					<Tweet tweet={tweet}, onImageClick={handleRemoveTweetFromCollection} />
+					<Tweet tweet={tweet} onImageClick={handleRemoveTweetFromCollection} />
 				);
 		}else{
 			tweetElement = <Tweet tweet={tweet} />
 		}
 
-		return <li style={listStyle} key={tweet.id} >{tweetElement}</li>
+		return <li style={listItemStyle} key={tweet.id} >{tweetElement}</li>
 	},
 
 	render: function(){

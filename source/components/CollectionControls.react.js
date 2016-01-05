@@ -32,7 +32,7 @@ var CollectionControls = React.createClass({
 
 	toggleEditCollectionName: function(){
 		this.setState({
-			isEditingName: !this.state.isEditingName;
+			isEditingName: !this.state.isEditingName
 		})
 	},
 

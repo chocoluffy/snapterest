@@ -6,7 +6,9 @@ var Header = require('./Header.react');
 var Stream = React.createClass({
 
 	getInitialState: function(){
-		tweet: null
+		return {
+			tweet: null
+		}
 	},
 
 	componentDidMount: function(){
@@ -28,7 +30,7 @@ var Stream = React.createClass({
 
 		if(tweet){
 			return (
-					<StreamTweet tweet={tweet} onAddTweetToCollection={this.props.onAddTweetToCollection} >
+					<StreamTweet tweet={tweet} onAddTweetToCollection={this.props.onAddTweetToCollection} />
 				);
 		}
 

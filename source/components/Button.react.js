@@ -6,8 +6,10 @@ var ButtonStyle = {
 
 var Button = React.createClass({
 	render: function(){
-		<button className="btn btn-default" style={this.ButtonStyle} onClick={this.props.handleClick}>{this.props.label}</button>
+		return (
+				<button className="btn btn-default" style={this.ButtonStyle} onClick={this.props.handleClick}>{this.props.label}</button>
+			)
 	}
 });
 
-module.exports = Button;
+module.exports = Button;	

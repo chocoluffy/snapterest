@@ -14,6 +14,6 @@ var CollectionExportForm = React.createClass({
 				</form>
 			)
 	}
-})；
+});
 
 module.exports = CollectionExportForm;

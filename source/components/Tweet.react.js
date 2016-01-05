@@ -28,7 +28,7 @@ var Tweet = React.createClass({
 			}
 		},
 
-		onImageClick: React.propTypes.func
+		onImageClick: React.PropTypes.func
 	},
 
 	handleImageClick: function(){
@@ -42,10 +42,12 @@ var Tweet = React.createClass({
 	render: function(){
 		var tweet = this.props.tweet;
 		var tweetMediaUrl = tweet.media[0].url;
+		// console.log(tweetMediaUrl);
+		// console.log(this.props.onImageClick);
 
 		return (
 				<div style={tweetStyle}>
-					<img src="tweetMediaUrl" onClick={this.handleImageClick} style={imageStyle} />
+					<img src={tweetMediaUrl} onClick={this.handleImageClick} style={imageStyle} />
 				</div>
 			)
 	}

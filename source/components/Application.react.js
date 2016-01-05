@@ -10,18 +10,18 @@ var Application = React.createClass({
 	},
 
 	addTweetToCollection: function(tweet){
-		var collection = this.state.collectionTweets;
-		collection[tweet.id] = tweet;
+		var collectionTweets = this.state.collectionTweets;
+		collectionTweets[tweet.id] = tweet;
 		this.setState({
-			collectionTweets: collection
+			collectionTweets: collectionTweets
 		});
 	},
 
 	removeTweetFromCollection: function(tweet){
-		var collection = this.state.collectionTweets;
-		delete collection[tweet.id];
+		var collectionTweets = this.state.collectionTweets;
+		delete collectionTweets[tweet.id];
 		this.setState({
-			collectionTweets: collection
+			collectionTweets: collectionTweets
 		});
 	},
 
