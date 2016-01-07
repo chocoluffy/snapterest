@@ -1,0 +1,662 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'color-thief' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose install initial load of /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/package.json
+5 warn package.json snapterest@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/babelify/package.json
+7 verbose installManyTop reading scoped package data from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/browserify/package.json
+8 verbose installManyTop reading scoped package data from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/gulp/package.json
+9 verbose installManyTop reading scoped package data from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/react/package.json
+10 verbose installManyTop reading scoped package data from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/react-dom/package.json
+11 verbose installManyTop reading scoped package data from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/snapkite-stream-client/package.json
+12 verbose installManyTop reading scoped package data from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/vinyl-source-stream/package.json
+13 verbose readDependencies loading dependencies from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/package.json
+14 silly cache add args [ 'color-thief', null ]
+15 verbose cache add spec color-thief
+16 silly cache add parsed spec { raw: 'color-thief',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'color-thief',
+16 silly cache add   rawSpec: '',
+16 silly cache add   spec: '*',
+16 silly cache add   type: 'range' }
+17 silly addNamed color-thief@*
+18 verbose addNamed "*" is a valid semver range for color-thief
+19 silly addNameRange { name: 'color-thief', range: '*', hasData: false }
+20 silly mapToRegistry name color-thief
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/color-thief
+24 verbose addNameRange registry:https://registry.npmjs.org/color-thief not in flight; fetching
+25 verbose request uri https://registry.npmjs.org/color-thief
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 22:20:58
+28 verbose request id d63a753f8b737021
+29 verbose etag "BM7O1L8C725LP25WIHP8S8D2J"
+30 http request GET https://registry.npmjs.org/color-thief
+31 http 304 https://registry.npmjs.org/color-thief
+32 silly get cb [ 304,
+32 silly get   { date: 'Wed, 06 Jan 2016 03:20:58 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     etag: '"BM7O1L8C725LP25WIHP8S8D2J"',
+32 silly get     age: '22',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-dfw1825-DFW',
+32 silly get     'x-cache': 'HIT',
+32 silly get     'x-cache-hits': '1',
+32 silly get     'x-timer': 'S1452050458.882882,VS0,VE0',
+32 silly get     vary: 'Accept' } ]
+33 verbose etag https://registry.npmjs.org/color-thief from cache
+34 verbose get saving color-thief to /Users/yushunzhe/.npm/registry.npmjs.org/color-thief/.cache.json
+35 silly addNameRange number 2 { name: 'color-thief', range: '*', hasData: true }
+36 silly addNameRange versions [ 'color-thief', [ '2.0.1', '2.1.0', '2.2.0', '2.2.1' ] ]
+37 silly addNamed color-thief@2.2.1
+38 verbose addNamed "2.2.1" is a plain semver version for color-thief
+39 silly cache afterAdd color-thief@2.2.1
+40 verbose afterAdd /Users/yushunzhe/.npm/color-thief/2.2.1/package/package.json not in flight; writing
+41 verbose afterAdd /Users/yushunzhe/.npm/color-thief/2.2.1/package/package.json written
+42 silly install resolved [ { name: 'color-thief',
+42 silly install resolved     version: '2.2.1',
+42 silly install resolved     description: 'A script for grabbing the color palette from an image. Uses Javascript and the canvas tag to make it happen.',
+42 silly install resolved     main: 'js/color-thief.js',
+42 silly install resolved     repository: { type: 'git', url: 'git://github.com/null2/color-thief.git' },
+42 silly install resolved     scripts: { test: 'nodeunit test/*-test.js --reporter minimal' },
+42 silly install resolved     author: '',
+42 silly install resolved     license: 'BSD-2-Clause',
+42 silly install resolved     bugs: { url: 'https://github.com/null2/color-thief/issues' },
+42 silly install resolved     dependencies: { canvas: '~1.2.0' },
+42 silly install resolved     devDependencies: { nodeunit: '~0.8.2' },
+42 silly install resolved     gitHead: 'cc4161185651730320e5a10959990684114465d0',
+42 silly install resolved     homepage: 'https://github.com/null2/color-thief#readme',
+42 silly install resolved     _id: 'color-thief@2.2.1',
+42 silly install resolved     _shasum: '31807b5536463aa13a60987da56a441e70e61cd4',
+42 silly install resolved     _from: 'color-thief@*',
+42 silly install resolved     _npmVersion: '3.3.3',
+42 silly install resolved     _nodeVersion: '4.1.2',
+42 silly install resolved     _npmUser: { name: 'jo', email: 'schmidt@netzmerk.com' },
+42 silly install resolved     dist:
+42 silly install resolved      { shasum: '31807b5536463aa13a60987da56a441e70e61cd4',
+42 silly install resolved        tarball: 'http://registry.npmjs.org/color-thief/-/color-thief-2.2.1.tgz' },
+42 silly install resolved     maintainers: [ [Object] ],
+42 silly install resolved     directories: {},
+42 silly install resolved     _resolved: 'https://registry.npmjs.org/color-thief/-/color-thief-2.2.1.tgz',
+42 silly install resolved     readme: 'ERROR: No README data found!' } ]
+43 info install color-thief@2.2.1 into /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest
+44 info installOne color-thief@2.2.1
+45 verbose installOne of color-thief to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest not in flight; installing
+46 verbose lock using /Users/yushunzhe/.npm/_locks/color-thief-e961e17d9aa65821.lock for /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+47 silly install write writing color-thief 2.2.1 to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+48 verbose unbuild node_modules/color-thief
+49 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief is being purged from base /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest
+50 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+51 verbose tar unpack /Users/yushunzhe/.npm/color-thief/2.2.1/package.tgz
+52 verbose tar unpacking to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+53 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief is being purged
+54 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry .npmignore
+58 silly gunzTarPerm extractEntry demo.js
+59 silly gunzTarPerm extractEntry node-demo.js
+60 silly gunzTarPerm extractEntry test/color-thief-test.js
+61 silly gunzTarPerm extractEntry img/dark_checkered_bg.png
+62 silly gunzTarPerm extractEntry img/drag_placeholder.png
+63 silly gunzTarPerm extractEntry img/photo1.jpg
+64 silly gunzTarPerm extractEntry img/photo2.jpg
+65 silly gunzTarPerm extractEntry img/photo3.jpg
+66 silly gunzTarPerm extractEntry README.markdown
+67 silly gunzTarPerm extractEntry js/color-thief.js
+68 silly gunzTarPerm extractEntry js/libs/jquery-2.0.2.min.js
+69 silly gunzTarPerm extractEntry js/libs/jquery.lettering.js
+70 silly gunzTarPerm extractEntry js/libs/modernizr.custom.js
+71 silly gunzTarPerm extractEntry js/libs/mustache.js
+72 silly gunzTarPerm extractEntry component.json
+73 silly gunzTarPerm extractEntry css/app.css
+74 silly gunzTarPerm extractEntry sass/app.sass
+75 silly gunzTarPerm extractEntry index.html
+76 verbose write writing to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/package.json
+77 info preinstall color-thief@2.2.1
+78 verbose readDependencies loading dependencies from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/package.json
+79 silly prepareForInstallMany adding canvas@~1.2.0 from color-thief dependencies
+80 verbose readDependencies loading dependencies from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/package.json
+81 silly cache add args [ 'canvas@~1.2.0', null ]
+82 verbose cache add spec canvas@~1.2.0
+83 silly cache add parsed spec { raw: 'canvas@~1.2.0',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'canvas',
+83 silly cache add   rawSpec: '~1.2.0',
+83 silly cache add   spec: '>=1.2.0 <1.3.0',
+83 silly cache add   type: 'range' }
+84 silly addNamed canvas@>=1.2.0 <1.3.0
+85 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for canvas
+86 silly addNameRange { name: 'canvas', range: '>=1.2.0 <1.3.0', hasData: false }
+87 silly mapToRegistry name canvas
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/canvas
+91 verbose addNameRange registry:https://registry.npmjs.org/canvas not in flight; fetching
+92 verbose request uri https://registry.npmjs.org/canvas
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 22:20:58
+95 verbose etag "4O8ONFF59XE61FRP4HZJF2J78"
+96 http request GET https://registry.npmjs.org/canvas
+97 http 304 https://registry.npmjs.org/canvas
+98 silly get cb [ 304,
+98 silly get   { date: 'Wed, 06 Jan 2016 03:20:59 GMT',
+98 silly get     via: '1.1 varnish',
+98 silly get     'cache-control': 'max-age=300',
+98 silly get     etag: '"4O8ONFF59XE61FRP4HZJF2J78"',
+98 silly get     age: '21',
+98 silly get     connection: 'keep-alive',
+98 silly get     'x-served-by': 'cache-dfw1834-DFW',
+98 silly get     'x-cache': 'HIT',
+98 silly get     'x-cache-hits': '1',
+98 silly get     'x-timer': 'S1452050459.237828,VS0,VE0',
+98 silly get     vary: 'Accept' } ]
+99 verbose etag https://registry.npmjs.org/canvas from cache
+100 verbose get saving canvas to /Users/yushunzhe/.npm/registry.npmjs.org/canvas/.cache.json
+101 silly addNameRange number 2 { name: 'canvas', range: '>=1.2.0 <1.3.0', hasData: true }
+102 silly addNameRange versions [ 'canvas',
+102 silly addNameRange   [ '0.0.1',
+102 silly addNameRange     '0.0.2',
+102 silly addNameRange     '0.0.3',
+102 silly addNameRange     '0.0.4',
+102 silly addNameRange     '0.0.5',
+102 silly addNameRange     '0.0.6',
+102 silly addNameRange     '0.0.7',
+102 silly addNameRange     '0.0.8',
+102 silly addNameRange     '0.1.0',
+102 silly addNameRange     '0.2.0',
+102 silly addNameRange     '0.2.1',
+102 silly addNameRange     '0.3.0',
+102 silly addNameRange     '0.3.1',
+102 silly addNameRange     '0.3.2',
+102 silly addNameRange     '0.3.3',
+102 silly addNameRange     '0.4.0',
+102 silly addNameRange     '0.4.1',
+102 silly addNameRange     '0.4.2',
+102 silly addNameRange     '0.4.3',
+102 silly addNameRange     '0.5.0',
+102 silly addNameRange     '0.5.1',
+102 silly addNameRange     '0.5.2',
+102 silly addNameRange     '0.5.3',
+102 silly addNameRange     '0.5.4',
+102 silly addNameRange     '0.6.0',
+102 silly addNameRange     '0.7.0',
+102 silly addNameRange     '0.7.1',
+102 silly addNameRange     '0.7.2',
+102 silly addNameRange     '0.7.3',
+102 silly addNameRange     '0.8.0',
+102 silly addNameRange     '0.8.1',
+102 silly addNameRange     '0.8.2',
+102 silly addNameRange     '0.8.3',
+102 silly addNameRange     '0.9.0',
+102 silly addNameRange     '0.10.0',
+102 silly addNameRange     '0.10.1',
+102 silly addNameRange     '0.10.2',
+102 silly addNameRange     '0.10.3',
+102 silly addNameRange     '0.11.0',
+102 silly addNameRange     '0.11.1',
+102 silly addNameRange     '0.11.2',
+102 silly addNameRange     '0.11.3',
+102 silly addNameRange     '0.12.0',
+102 silly addNameRange     '0.12.1',
+102 silly addNameRange     '0.13.0',
+102 silly addNameRange     '0.13.1',
+102 silly addNameRange     '1.0.0',
+102 silly addNameRange     '1.0.1',
+102 silly addNameRange     '1.0.2',
+102 silly addNameRange     '1.0.3',
+102 silly addNameRange     '1.0.4',
+102 silly addNameRange     '1.1.0',
+102 silly addNameRange     '1.1.1',
+102 silly addNameRange     '1.1.2',
+102 silly addNameRange     '1.1.3',
+102 silly addNameRange     '1.1.4',
+102 silly addNameRange     '1.1.5',
+102 silly addNameRange     '1.1.6',
+102 silly addNameRange     '1.2.0',
+102 silly addNameRange     '1.2.1',
+102 silly addNameRange     '1.2.2',
+102 silly addNameRange     '1.2.3',
+102 silly addNameRange     '1.2.4',
+102 silly addNameRange     '1.2.5',
+102 silly addNameRange     '1.2.6',
+102 silly addNameRange     '1.2.7',
+102 silly addNameRange     '1.2.8',
+102 silly addNameRange     '1.2.9',
+102 silly addNameRange     '1.2.10',
+102 silly addNameRange     '1.2.11',
+102 silly addNameRange     '1.3.0',
+102 silly addNameRange     '1.3.1',
+102 silly addNameRange     '1.3.2',
+102 silly addNameRange     '1.3.3',
+102 silly addNameRange     '1.3.4',
+102 silly addNameRange     '1.3.5',
+102 silly addNameRange     '1.3.6' ] ]
+103 silly addNamed canvas@1.2.11
+104 verbose addNamed "1.2.11" is a plain semver version for canvas
+105 silly cache afterAdd canvas@1.2.11
+106 verbose afterAdd /Users/yushunzhe/.npm/canvas/1.2.11/package/package.json not in flight; writing
+107 verbose afterAdd /Users/yushunzhe/.npm/canvas/1.2.11/package/package.json written
+108 silly install resolved [ { name: 'canvas',
+108 silly install resolved     description: 'Canvas graphics API backed by Cairo',
+108 silly install resolved     version: '1.2.11',
+108 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+108 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+108 silly install resolved     keywords:
+108 silly install resolved      [ 'canvas',
+108 silly install resolved        'graphic',
+108 silly install resolved        'graphics',
+108 silly install resolved        'pixman',
+108 silly install resolved        'cairo',
+108 silly install resolved        'image',
+108 silly install resolved        'images',
+108 silly install resolved        'pdf' ],
+108 silly install resolved     homepage: 'https://github.com/Automattic/node-canvas',
+108 silly install resolved     repository:
+108 silly install resolved      { type: 'git',
+108 silly install resolved        url: 'git://github.com/Automattic/node-canvas.git' },
+108 silly install resolved     scripts:
+108 silly install resolved      { prebenchmark: 'node-gyp build',
+108 silly install resolved        benchmark: 'node benchmarks/run.js',
+108 silly install resolved        pretest: 'node-gyp build',
+108 silly install resolved        test: 'mocha test/*.test.js',
+108 silly install resolved        'pretest-server': 'node-gyp build',
+108 silly install resolved        'test-server': 'node test/server.js',
+108 silly install resolved        install: 'node-gyp rebuild' },
+108 silly install resolved     dependencies: { nan: '^2.0.9' },
+108 silly install resolved     devDependencies:
+108 silly install resolved      { 'body-parser': '^1.13.3',
+108 silly install resolved        express: '^4.13.2',
+108 silly install resolved        jade: '^1.11.0',
+108 silly install resolved        mocha: '*' },
+108 silly install resolved     engines: { node: '>=0.8.0' },
+108 silly install resolved     main: './lib/canvas.js',
+108 silly install resolved     license: 'MIT',
+108 silly install resolved     gypfile: true,
+108 silly install resolved     gitHead: '7a8e6de568d1c04eb633d4539c2fee8c69c4e337',
+108 silly install resolved     bugs: { url: 'https://github.com/Automattic/node-canvas/issues' },
+108 silly install resolved     _id: 'canvas@1.2.11',
+108 silly install resolved     _shasum: 'd12455864df5169c2a2be602fa8e0e4013a97140',
+108 silly install resolved     _from: 'canvas@>=1.2.0 <1.3.0',
+108 silly install resolved     _npmVersion: '2.14.6',
+108 silly install resolved     _nodeVersion: '4.1.2',
+108 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+108 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+108 silly install resolved     dist:
+108 silly install resolved      { shasum: 'd12455864df5169c2a2be602fa8e0e4013a97140',
+108 silly install resolved        tarball: 'http://registry.npmjs.org/canvas/-/canvas-1.2.11.tgz' },
+108 silly install resolved     directories: {},
+108 silly install resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.2.11.tgz',
+108 silly install resolved     readme: 'ERROR: No README data found!' } ]
+109 info install canvas@1.2.11 into /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+110 info installOne canvas@1.2.11
+111 verbose installOne of canvas to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief not in flight; installing
+112 verbose lock using /Users/yushunzhe/.npm/_locks/canvas-f04c7421f1c99097.lock for /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+113 silly install write writing canvas 1.2.11 to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+114 verbose unbuild node_modules/color-thief/node_modules/canvas
+115 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas is being purged from base /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest
+116 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+117 verbose tar unpack /Users/yushunzhe/.npm/canvas/1.2.11/package.tgz
+118 verbose tar unpacking to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+119 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas is being purged
+120 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm extractEntry .npmignore
+124 silly gunzTarPerm extractEntry index.js
+125 silly gunzTarPerm extractEntry History.md
+126 silly gunzTarPerm extractEntry Readme.md
+127 silly gunzTarPerm extractEntry binding.gyp
+128 silly gunzTarPerm extractEntry .gitmodules
+129 silly gunzTarPerm extractEntry install
+130 silly gunzTarPerm extractEntry lib/bindings.js
+131 silly gunzTarPerm extractEntry lib/canvas.js
+132 silly gunzTarPerm extractEntry lib/context2d.js
+133 silly gunzTarPerm extractEntry lib/image.js
+134 silly gunzTarPerm extractEntry lib/jpegstream.js
+135 silly gunzTarPerm extractEntry lib/pngstream.js
+136 silly gunzTarPerm extractEntry .travis.yml
+137 silly gunzTarPerm extractEntry src/Image.cc
+138 silly gunzTarPerm extractEntry src/Canvas.cc
+139 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+140 silly gunzTarPerm extractEntry src/CanvasGradient.h
+141 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+142 silly gunzTarPerm extractEntry src/CanvasPattern.h
+143 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+144 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+145 silly gunzTarPerm extractEntry src/FontFace.cc
+146 silly gunzTarPerm extractEntry src/FontFace.h
+147 silly gunzTarPerm extractEntry src/Canvas.h
+148 silly gunzTarPerm extractEntry src/Image.h
+149 silly gunzTarPerm extractEntry src/ImageData.cc
+150 silly gunzTarPerm extractEntry src/ImageData.h
+151 silly gunzTarPerm extractEntry src/JPEGStream.h
+152 silly gunzTarPerm extractEntry src/PNG.h
+153 silly gunzTarPerm extractEntry src/Point.h
+154 silly gunzTarPerm extractEntry src/closure.h
+155 silly gunzTarPerm extractEntry src/color.cc
+156 silly gunzTarPerm extractEntry src/color.h
+157 silly gunzTarPerm extractEntry src/init.cc
+158 silly gunzTarPerm extractEntry util/cairo_include.sh
+159 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+160 silly gunzTarPerm extractEntry util/has_lib.sh
+161 silly gunzTarPerm extractEntry util/lib_lookup.sh
+162 verbose write writing to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/package.json
+163 info preinstall canvas@1.2.11
+164 verbose readDependencies loading dependencies from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/package.json
+165 silly prepareForInstallMany adding nan@^2.0.9 from canvas dependencies
+166 verbose readDependencies loading dependencies from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/package.json
+167 silly cache add args [ 'nan@^2.0.9', null ]
+168 verbose cache add spec nan@^2.0.9
+169 silly cache add parsed spec { raw: 'nan@^2.0.9',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'nan',
+169 silly cache add   rawSpec: '^2.0.9',
+169 silly cache add   spec: '>=2.0.9 <3.0.0',
+169 silly cache add   type: 'range' }
+170 silly addNamed nan@>=2.0.9 <3.0.0
+171 verbose addNamed ">=2.0.9 <3.0.0" is a valid semver range for nan
+172 silly addNameRange { name: 'nan', range: '>=2.0.9 <3.0.0', hasData: false }
+173 silly mapToRegistry name nan
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry uri https://registry.npmjs.org/nan
+177 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+178 verbose request uri https://registry.npmjs.org/nan
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 22:20:58
+181 verbose etag "7CEDVJA24M9BXRU7SU6WRSW4M"
+182 http request GET https://registry.npmjs.org/nan
+183 http 304 https://registry.npmjs.org/nan
+184 silly get cb [ 304,
+184 silly get   { date: 'Wed, 06 Jan 2016 03:20:59 GMT',
+184 silly get     via: '1.1 varnish',
+184 silly get     'cache-control': 'max-age=300',
+184 silly get     etag: '"7CEDVJA24M9BXRU7SU6WRSW4M"',
+184 silly get     age: '192',
+184 silly get     connection: 'keep-alive',
+184 silly get     'x-served-by': 'cache-dfw1829-DFW',
+184 silly get     'x-cache': 'HIT',
+184 silly get     'x-cache-hits': '2',
+184 silly get     'x-timer': 'S1452050459.587404,VS0,VE0',
+184 silly get     vary: 'Accept' } ]
+185 verbose etag https://registry.npmjs.org/nan from cache
+186 verbose get saving nan to /Users/yushunzhe/.npm/registry.npmjs.org/nan/.cache.json
+187 silly addNameRange number 2 { name: 'nan', range: '>=2.0.9 <3.0.0', hasData: true }
+188 silly addNameRange versions [ 'nan',
+188 silly addNameRange   [ '0.3.0-wip',
+188 silly addNameRange     '0.3.0-wip2',
+188 silly addNameRange     '0.3.0',
+188 silly addNameRange     '0.3.1',
+188 silly addNameRange     '0.3.2',
+188 silly addNameRange     '0.4.0',
+188 silly addNameRange     '0.4.1',
+188 silly addNameRange     '0.4.2',
+188 silly addNameRange     '0.4.3',
+188 silly addNameRange     '0.4.4',
+188 silly addNameRange     '0.5.0',
+188 silly addNameRange     '0.5.1',
+188 silly addNameRange     '0.5.2',
+188 silly addNameRange     '0.6.0',
+188 silly addNameRange     '0.7.0',
+188 silly addNameRange     '0.7.1',
+188 silly addNameRange     '0.8.0',
+188 silly addNameRange     '1.0.0',
+188 silly addNameRange     '1.1.0',
+188 silly addNameRange     '1.1.1',
+188 silly addNameRange     '1.1.2',
+188 silly addNameRange     '1.2.0',
+188 silly addNameRange     '1.3.0',
+188 silly addNameRange     '1.4.0',
+188 silly addNameRange     '1.4.1',
+188 silly addNameRange     '1.5.0',
+188 silly addNameRange     '1.4.2',
+188 silly addNameRange     '1.4.3',
+188 silly addNameRange     '1.5.1',
+188 silly addNameRange     '1.5.2',
+188 silly addNameRange     '1.6.0',
+188 silly addNameRange     '1.5.3',
+188 silly addNameRange     '1.6.1',
+188 silly addNameRange     '1.6.2',
+188 silly addNameRange     '1.7.0',
+188 silly addNameRange     '1.8.0',
+188 silly addNameRange     '1.8.1',
+188 silly addNameRange     '1.8.2',
+188 silly addNameRange     '1.8.3',
+188 silly addNameRange     '1.8.4',
+188 silly addNameRange     '1.9.0',
+188 silly addNameRange     '2.0.0',
+188 silly addNameRange     '2.0.1',
+188 silly addNameRange     '2.0.2',
+188 silly addNameRange     '2.0.3',
+188 silly addNameRange     '2.0.4',
+188 silly addNameRange     '2.0.5',
+188 silly addNameRange     '2.0.6',
+188 silly addNameRange     '2.0.7',
+188 silly addNameRange     '2.0.8',
+188 silly addNameRange     '2.0.9',
+188 silly addNameRange     '2.1.0' ] ]
+189 silly addNamed nan@2.1.0
+190 verbose addNamed "2.1.0" is a plain semver version for nan
+191 silly cache afterAdd nan@2.1.0
+192 verbose afterAdd /Users/yushunzhe/.npm/nan/2.1.0/package/package.json not in flight; writing
+193 verbose afterAdd /Users/yushunzhe/.npm/nan/2.1.0/package/package.json written
+194 silly install resolved [ { name: 'nan',
+194 silly install resolved     version: '2.1.0',
+194 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility',
+194 silly install resolved     main: 'include_dirs.js',
+194 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+194 silly install resolved     scripts:
+194 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+194 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+194 silly install resolved        docs: 'doc/.build.sh' },
+194 silly install resolved     contributors:
+194 silly install resolved      [ [Object],
+194 silly install resolved        [Object],
+194 silly install resolved        [Object],
+194 silly install resolved        [Object],
+194 silly install resolved        [Object],
+194 silly install resolved        [Object],
+194 silly install resolved        [Object] ],
+194 silly install resolved     devDependencies:
+194 silly install resolved      { bindings: '~1.2.1',
+194 silly install resolved        commander: '^2.8.1',
+194 silly install resolved        glob: '^5.0.14',
+194 silly install resolved        'node-gyp': '~3.0.1',
+194 silly install resolved        tap: '~0.7.1',
+194 silly install resolved        xtend: '~4.0.0' },
+194 silly install resolved     license: 'MIT',
+194 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+194 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+194 silly install resolved     _id: 'nan@2.1.0',
+194 silly install resolved     _shasum: '020a7ccedc63fdee85f85967d5607849e74abbe8',
+194 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.1.0.tgz',
+194 silly install resolved     _from: 'nan@>=2.0.9 <3.0.0',
+194 silly install resolved     _npmVersion: '3.3.5',
+194 silly install resolved     _nodeVersion: '4.1.2',
+194 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+194 silly install resolved     dist:
+194 silly install resolved      { shasum: '020a7ccedc63fdee85f85967d5607849e74abbe8',
+194 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-2.1.0.tgz' },
+194 silly install resolved     maintainers: [ [Object], [Object] ],
+194 silly install resolved     directories: {},
+194 silly install resolved     readme: 'ERROR: No README data found!' } ]
+195 info install nan@2.1.0 into /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+196 info installOne nan@2.1.0
+197 verbose installOne of nan to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas not in flight; installing
+198 verbose lock using /Users/yushunzhe/.npm/_locks/nan-d0b2353be9cd8575.lock for /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+199 silly install write writing nan 2.1.0 to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+200 verbose unbuild node_modules/color-thief/node_modules/canvas/node_modules/nan
+201 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan is being purged from base /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest
+202 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+203 verbose tar unpack /Users/yushunzhe/.npm/nan/2.1.0/package.tgz
+204 verbose tar unpacking to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+205 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan is being purged
+206 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+207 silly gunzTarPerm modes [ '755', '644' ]
+208 silly gunzTarPerm extractEntry package.json
+209 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+210 silly gunzTarPerm extractEntry README.md
+211 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+212 silly gunzTarPerm extractEntry include_dirs.js
+213 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+214 silly gunzTarPerm extractEntry nan_converters.h
+215 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+216 silly gunzTarPerm extractEntry LICENSE.md
+217 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+218 silly gunzTarPerm extractEntry .dntrc
+219 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+220 silly gunzTarPerm extractEntry appveyor.yml
+221 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+222 silly gunzTarPerm extractEntry doc/new.md
+223 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+224 silly gunzTarPerm extractEntry doc/.build.sh
+225 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 493 ]
+226 silly gunzTarPerm extractEntry doc/buffers.md
+227 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+228 silly gunzTarPerm extractEntry doc/callback.md
+229 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+230 silly gunzTarPerm extractEntry doc/converters.md
+231 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+232 silly gunzTarPerm extractEntry doc/errors.md
+233 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+234 silly gunzTarPerm extractEntry doc/maybe_types.md
+235 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+236 silly gunzTarPerm extractEntry doc/methods.md
+237 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+238 silly gunzTarPerm extractEntry doc/asyncworker.md
+239 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+240 silly gunzTarPerm extractEntry doc/node_misc.md
+241 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+242 silly gunzTarPerm extractEntry doc/persistent.md
+243 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+244 silly gunzTarPerm extractEntry doc/scopes.md
+245 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+246 silly gunzTarPerm extractEntry doc/script.md
+247 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+248 silly gunzTarPerm extractEntry doc/string_bytes.md
+249 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+250 silly gunzTarPerm extractEntry doc/v8_internals.md
+251 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+252 silly gunzTarPerm extractEntry doc/v8_misc.md
+253 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+254 silly gunzTarPerm extractEntry nan.h
+255 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+256 silly gunzTarPerm extractEntry nan_callbacks.h
+257 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+258 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+259 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+260 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+261 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+262 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+263 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+264 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+265 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+266 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+267 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+268 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+269 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+270 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+271 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+272 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+273 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+274 silly gunzTarPerm extractEntry nan_new.h
+275 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+276 silly gunzTarPerm extractEntry nan_object_wrap.h
+277 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+278 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+279 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+280 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+281 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+282 silly gunzTarPerm extractEntry nan_string_bytes.h
+283 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+284 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+285 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+286 silly gunzTarPerm extractEntry nan_weak.h
+287 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+288 silly gunzTarPerm extractEntry CHANGELOG.md
+289 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+290 silly gunzTarPerm extractEntry tools/package.json
+291 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+292 silly gunzTarPerm extractEntry tools/README.md
+293 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+294 silly gunzTarPerm extractEntry tools/1to2.js
+295 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+296 verbose write writing to /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan/package.json
+297 info preinstall nan@2.1.0
+298 verbose readDependencies loading dependencies from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan/package.json
+299 verbose readDependencies loading dependencies from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan/package.json
+300 silly install resolved []
+301 verbose about to build /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+302 info build /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+303 info linkStuff nan@2.1.0
+304 silly linkStuff nan@2.1.0 has /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules as its parent node_modules
+305 verbose linkBins nan@2.1.0
+306 verbose linkMans nan@2.1.0
+307 verbose rebuildBundles nan@2.1.0
+308 info install nan@2.1.0
+309 info postinstall nan@2.1.0
+310 verbose unlock done using /Users/yushunzhe/.npm/_locks/nan-d0b2353be9cd8575.lock for /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas/node_modules/nan
+311 verbose about to build /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+312 info build /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+313 info linkStuff canvas@1.2.11
+314 silly linkStuff canvas@1.2.11 has /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules as its parent node_modules
+315 verbose linkBins canvas@1.2.11
+316 verbose linkMans canvas@1.2.11
+317 verbose rebuildBundles canvas@1.2.11
+318 verbose rebuildBundles [ 'nan' ]
+319 info install canvas@1.2.11
+320 verbose unsafe-perm in lifecycle false
+321 info canvas@1.2.11 Failed to exec install script
+322 verbose unlock done using /Users/yushunzhe/.npm/_locks/canvas-f04c7421f1c99097.lock for /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+323 verbose about to build /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+324 verbose unlock done using /Users/yushunzhe/.npm/_locks/color-thief-e961e17d9aa65821.lock for /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+325 verbose stack Error: canvas@1.2.11 install: `node-gyp rebuild`
+325 verbose stack Exit status 1
+325 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+325 verbose stack     at EventEmitter.emit (events.js:110:17)
+325 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+325 verbose stack     at ChildProcess.emit (events.js:110:17)
+325 verbose stack     at maybeClose (child_process.js:1015:16)
+325 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+326 verbose pkgid canvas@1.2.11
+327 verbose cwd /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest
+328 error Darwin 15.2.0
+329 error argv "node" "/usr/local/bin/npm" "install" "color-thief"
+330 error node v0.12.6
+331 error npm  v2.11.2
+332 error code ELIFECYCLE
+333 error canvas@1.2.11 install: `node-gyp rebuild`
+333 error Exit status 1
+334 error Failed at the canvas@1.2.11 install script 'node-gyp rebuild'.
+334 error This is most likely a problem with the canvas package,
+334 error not with npm itself.
+334 error Tell the author that this fails on your system:
+334 error     node-gyp rebuild
+334 error You can get their info via:
+334 error     npm owner ls canvas
+334 error There is likely additional logging output above.
+335 verbose exit [ 1, true ]
+336 verbose unbuild node_modules/color-thief/node_modules/canvas
+337 info preuninstall canvas@1.2.11
+338 info uninstall canvas@1.2.11
+339 verbose unbuild rmStuff canvas@1.2.11 from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules
+340 verbose unbuild rmStuff in /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules
+341 info postuninstall canvas@1.2.11
+342 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas is being purged from base /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest
+343 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+344 silly vacuum-fs purging /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules/canvas
+345 silly vacuum-fs removing /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief/node_modules
+346 silly vacuum-fs quitting because other entries in /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+347 verbose unbuild node_modules/color-thief
+348 info preuninstall color-thief@2.2.1
+349 info uninstall color-thief@2.2.1
+350 verbose unbuild rmStuff color-thief@2.2.1 from /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules
+351 info postuninstall color-thief@2.2.1
+352 silly gentlyRm /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief is being purged from base /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest
+353 verbose gentlyRm don't care about contents; nuking /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+354 silly vacuum-fs purging /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules/color-thief
+355 silly vacuum-fs quitting because other entries in /Users/yushunzhe/Desktop/react开发课程/[项目]snapterest/TwitterTube-React/snapterest/node_modules
